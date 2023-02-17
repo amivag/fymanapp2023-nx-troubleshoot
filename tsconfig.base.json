@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "skipLibCheck": false,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@fyot2023/common/dates-times2023": [
+        "../libs/common/dates-times2023/src/index.ts"
+      ],
+      "@fyot2023/manager/asset-prices-2023": [
+        "../libs/manager/asset-prices-2023/src/index.ts"
+      ],
+      "@fyot2023/manager/assets2023": ["../libs/manager/assets2023/src/index.ts"],
+      "@fyot2023/manager/availability2023": [
+        "../libs/manager/availability2023/src/index.ts"
+      ],
+      "@fyot2023/manager/ui-asset-prices": [
+        "../libs/manager/ui-asset-prices/src/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
